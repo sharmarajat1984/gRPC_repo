@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "WOM_Workorder__e",
+  "namespace": "com.sforce.eventbus",
+  "fields": [
+    {
+      "name": "CreatedDate",
+      "type": "long",
+      "doc": "CreatedDate:DateTime"
+    },
+    {
+      "name": "CreatedById",
+      "type": "string",
+      "doc": "CreatedBy:EntityId"
+    },
+    {
+      "name": "Payload__c",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Data:StringPlusClob:00N6g00000VrAnK",
+      "default": null
+    }
+  ]
+}
