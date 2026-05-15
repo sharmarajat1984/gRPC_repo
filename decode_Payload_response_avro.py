@@ -10,7 +10,7 @@ Example:
 
 import sys, base64, json, io, avro.schema, avro.io
 
-SCHEMA_FILE = "WOM_Workorder__e.avsc"
+SCHEMA_FILE = "payload_Schema.avsc"
 
 def load_schema(path: str):
     with open(path, "r") as f:
