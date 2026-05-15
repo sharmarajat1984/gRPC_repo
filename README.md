@@ -17,7 +17,7 @@ pip3 install avro-python3
 In this repo decode_avro.py is the schema payload for my PE WOM_Workorder__e.avsc
 
 On Terminal 
-python3 decode_avro.py "Replace with your Payload"
+python3 decode_Payload_response_avro.py "Replace with your Payload"
 
 #### your payload should be looked like - gMrQ6vxlJDAwNWJtMDAwMDBFcE1zckFBRgJCV2VsY29tZSB0byBSYWphdCBCbG9nIG9uIE1lZGl1bSAx 
 
