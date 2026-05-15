@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Decode a Salesforce Pub/Sub API Base64 Avro payload using the MediumBlog__e schema.
+"""Decode a Salesforce Pub/Sub API Base64 Avro payload using the WOM_Workorder__e schema.
 
 Usage:
     python3 decode_avro.py <base64_payload>
